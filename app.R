@@ -6,9 +6,7 @@ library(ggplot2)
 
 options(scipen = 999)
 
-df <- read.csv("traveller_data.csv")
-
-View(df)
+df <- read.csv("data/traveller_data.csv")
 
 ui <- fluidPage(
   
